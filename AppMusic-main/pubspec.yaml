@@ -1,0 +1,42 @@
+name: my_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  google_maps_flutter: ^2.12.3
+  image: ^4.5.4
+  image_picker: ^1.2.0
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  http: ^1.5.0
+  fl_chart: ^0.68.0
+  cupertino_icons: ^1.0.8
+  just_audio: ^0.10.5
+  rxdart: ^0.28.0
+  audio_video_progress_bar: ^2.0.3
+  device_preview: ^1.1.0
+  confirm_dialog: ^1.0.1
+  dio: ^5.0.0
+  provider: ^6.1.2
+  diacritic: ^0.1.3   # ✅ thêm package để bỏ dấu tiếng Việt khi search
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/songs.json
+    - assets/FaviconSHOP.png
